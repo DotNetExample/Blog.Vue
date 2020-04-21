@@ -1,7 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
 import store from "./store";
-import router from "./router.js";
+import router from "./router";
 
 // import VueQuillEditor from "vue-quill-editor"
 // Vue.use(VueQuillEditor);
@@ -13,7 +13,7 @@ Vue.use(ElementUI);
 
 
 // 引用API文件
-import api from "./api/http.js";
+import api from "@/api/http.ts"
 // 将API方法绑定到全局
 Vue.prototype.$api = api;
 
